@@ -15,15 +15,18 @@ export default createGlobalStyle`
     width: 100%;
     background-color: ${({ theme }) => theme.FT_PINK};
     transition: 300ms;
-    filter: brightness(0.7);
-
+    border: none;
+    transition: all 500ms;
     
     &:hover{
-      filter: brightness(1);
+      filter: brightness(0.7);
     }
   }
   a, li, ul{
     list-style: none;
     text-decoration: none;
+  }
+  a{
+    color: ${({ theme }) => theme.COLORS.FT_PINK};
   }
 `;

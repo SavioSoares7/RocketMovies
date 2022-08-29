@@ -6,6 +6,7 @@ export default {
     FT_GRAY: "#999591;",
     FT_GRAY200: "#948F99",
     FT_GRAY300: "#CAC4CF",
+    FT_BLACK300: " #312E38",
     FT_WHITE: "#F4EDE8",
   },
 };
