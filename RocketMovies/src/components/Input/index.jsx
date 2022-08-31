@@ -5,7 +5,7 @@ export function Input({ title, icon: Icon, ...rest }) {
     <>
       <InputContainer>
         {Icon && <Icon size={20} />}
-        <input {...rest} />
+        <input {...rest} placeholder={title} />
       </InputContainer>
     </>
   );
