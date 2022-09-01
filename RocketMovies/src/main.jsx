@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { Home } from "./page/Home";
+import { Profile } from "./page/Profile";
 
 import { ThemeProvider } from "styled-components";
 
@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ThemeProvider theme={Colors}>
       <GlobalStyle />
-      <Home />
+      <Profile />
     </ThemeProvider>
   </React.StrictMode>
 );
