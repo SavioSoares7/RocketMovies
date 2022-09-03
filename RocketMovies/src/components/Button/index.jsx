@@ -1,5 +1,10 @@
 import { ButtonContainer } from "./style";
 
-export function Button({ title }) {
-  return <ButtonContainer>{title}</ButtonContainer>;
+export function Button({ title, icon: Icon }) {
+  return (
+    <ButtonContainer>
+      <Icon />
+      {title}
+    </ButtonContainer>
+  );
 }
