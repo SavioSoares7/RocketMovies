@@ -29,6 +29,42 @@ export function Home() {
             ],
           }}
         />
+        <Notes
+          data={{
+            title: "Interestellar",
+            star: 5,
+            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ea quidem ratione vel quisquam aperiam veritatis nam mollitia quo voluptatibus in, pariatur adipisci aut dignissimos, numquam nihil quaerat placeat excepturi?",
+            tags: [
+              { id: 1, title: "Node" },
+              { id: 2, title: "Node" },
+              { id: 3, title: "Node" },
+            ],
+          }}
+        />
+        <Notes
+          data={{
+            title: "Interestellar",
+            star: 5,
+            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ea quidem ratione vel quisquam aperiam veritatis nam mollitia quo voluptatibus in, pariatur adipisci aut dignissimos, numquam nihil quaerat placeat excepturi?",
+            tags: [
+              { id: 1, title: "Node" },
+              { id: 2, title: "Node" },
+              { id: 3, title: "Node" },
+            ],
+          }}
+        />
+        <Notes
+          data={{
+            title: "Interestellar",
+            star: 5,
+            text: "Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ea quidem ratione vel quisquam aperiam veritatis nam mollitia quo voluptatibus in, pariatur adipisci aut dignissimos, numquam nihil quaerat placeat excepturi?  Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ea quidem ratione vel quisquam aperiam veritatis nam mollitia quo voluptatibus in, pariatur adipisci aut dignissimos, numquam nihil quaerat placeat excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ea quidem ratione vel quisquam aperiam veritatis nam mollitia quo voluptatibus in, pariatur adipisci aut dignissimos, numquam nihil quaerat placeat excepturi? Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi ea quidem ratione vel quisquam aperiam veritatis nam mollitia quo voluptatibus in, pariatur adipisci aut dignissimos, numquam nihil quaerat placeat excepturi?",
+            tags: [
+              { id: 1, title: "Node" },
+              { id: 2, title: "Node" },
+              { id: 3, title: "Node" },
+            ],
+          }}
+        />
       </ContainerMain>
     </Container>
   );

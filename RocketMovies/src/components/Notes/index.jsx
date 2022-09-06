@@ -30,11 +30,13 @@ export function Notes({ data, ...rest }) {
         <AiFillStar />
         {counterStar(data.star)}
 
-        {data.tags.map((map) => {
-          return <Tags title={map.title} key={map.key} />;
-        })}
-
         <p>{data.text}</p>
+
+        <div>
+          {data.tags.map((map) => {
+            return <Tags title={map.title} key={map.key} />;
+          })}
+        </div>
       </footer>
     </Container>
   );
