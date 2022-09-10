@@ -17,6 +17,7 @@ export default createGlobalStyle`
     transition: 300ms;
     border: none;
     transition: all 500ms;
+    cursor: pointer;
     
     &:hover{
       filter: brightness(0.7);
