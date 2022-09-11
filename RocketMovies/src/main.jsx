@@ -1,6 +1,6 @@
 import React from "react";
 import ReactDOM from "react-dom/client";
-import { CreateMovie } from "./page/CreateMovie";
+import { MoviePreview } from "./page/MoviePreview";
 
 import { ThemeProvider } from "styled-components";
 
@@ -11,7 +11,7 @@ ReactDOM.createRoot(document.getElementById("root")).render(
   <React.StrictMode>
     <ThemeProvider theme={Colors}>
       <GlobalStyle />
-      <CreateMovie />
+      <MoviePreview />
     </ThemeProvider>
   </React.StrictMode>
 );
