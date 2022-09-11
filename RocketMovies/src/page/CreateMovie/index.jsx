@@ -1,10 +1,12 @@
-import { Container, Footer } from "./style";
+import { Container, Footer, ContainerButton } from "./style";
 
 import { Header } from "../../components/Header";
 import { Section } from "../../components/Section";
 import { Input } from "../../components/Input";
 import { TextArea } from "../../components/TextArea";
 import { NoteItem } from "../../components/NoteItem";
+import { Button } from "../../components/Button";
+import { ButtonDark } from "../../components/ButtonDark";
 
 import { AiOutlineArrowLeft } from "react-icons/ai";
 
@@ -37,6 +39,10 @@ export function CreateMovie() {
             <NoteItem isNew />
           </div>
         </Footer>
+        <ContainerButton>
+          <ButtonDark title="Excluir filme" />
+          <Button title="Salvar alterações" />
+        </ContainerButton>
       </Container>
     </>
   );

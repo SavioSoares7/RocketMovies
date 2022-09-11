@@ -28,3 +28,10 @@ export const Footer = styled.footer`
     padding: 16px;
   }
 `;
+export const ContainerButton = styled.div`
+  margin-top: 40px;
+  margin-bottom: 90px;
+
+  display: flex;
+  gap: 40px;
+`;
