@@ -1,3 +1,5 @@
+import { Link } from "react-router-dom";
+
 import { Container, Background } from "./styled";
 
 import { FiMail, FiLock, FiUser, FiArrowLeft } from "react-icons/fi";
@@ -19,10 +21,10 @@ export function SingIn() {
 
           <Button title="Cadastrar" />
         </form>
-        <a href="#">
+        <Link to="/">
           <FiArrowLeft />
           Voltar para o login
-        </a>
+        </Link>
       </div>
       <Background />
     </Container>

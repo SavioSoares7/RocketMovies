@@ -4,7 +4,7 @@ export function Section({ title, titleLink, icon: Icon, ...rest }) {
   return (
     <Container>
       {Icon && (
-        <a href="#">
+        <a href="/">
           <Icon size="20" />
           {titleLink}
         </a>

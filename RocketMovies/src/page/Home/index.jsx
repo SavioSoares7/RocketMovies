@@ -13,7 +13,7 @@ export function Home() {
       <Header />
       <div>
         <Section title="Meus filmes" />
-        <Button title="Adicionar filme" icon={AiOutlinePlus} />
+        <Button link="/register" title="Adicionar filme" icon={AiOutlinePlus} />
       </div>
 
       <ContainerMain>
